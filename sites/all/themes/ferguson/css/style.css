@@ -21,7 +21,8 @@
 /* Universal */
 body, p, div, h1, h2, h3 {font-family: 'Open Sans', Arial; color:#000;}
 a {color:#5f483a;}
-p {font-size:1.2em;}
+a:hover {cursor:pointer; text-decoration:none;}
+p {font-size:1.2em; line-height:160%; letter-spacing:0.5px; margin-top:0px;}
 div.main-container.container  { padding:0px; max-width:none; width:100%;}
 .not-front div.main-container.container {max-width:1170px; margin:0px auto;}
 .navbar-default {border:0px; background:none;}
@@ -34,11 +35,21 @@ div.row section.col-sm-12 {padding:0px !important;}
 
 /* Header */
 header#navbar { float: none; margin: 0 auto 15px !important; width:100%; padding:20px 0px 32px;}
+.navbar-nav > li > a {float: left;
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;}
 header#navbar a.logo.navbar-btn {margin-top:0px; margin-bottom:0px;}
 .not-front header#navbar {border-bottom:1px solid #ddd; }
 .navbar.container {max-width:none; width:100%; padding:0px;}
 .navbar.container .container { width:100%; max-width:1170px; margin:0px auto;}
 div.navbar-collapse {padding:0px; margin:0px auto !important;}
+
+/* Utility Icons */
+
+section#block-block-2 {}
+section#block-block-2 img {margin-left:25px;}
+
 
 /* Front */
 .panel-3col-33-stacked .panel-separator {margin:0;}
@@ -64,19 +75,66 @@ div#NorbCarousel .carousel-caption h3 {color:white; font-size:3em;letter-spacing
 div#NorbCarousel .carousel-caption p  {color:white; font-size:1.65em; line-height:130%; text-shadow:none; }
 
 
+
 div#NorbCarousel .carousel-indicators {bottom: 20px;
     left: inherit;
     padding: 0; right:10%; width:0px; margin-left:0px;}
 div#NorbCarousel .carousel-indicators li.active {background:white;}
-div#NorbCarousel .carousel-indicators li {height:18px !important; width:18px !important; border-radius: 15px; margin:6px; border:2px solid white; background:url(../../../../../sites/default/files/siteart/indicator_fill.png)}
+div#NorbCarousel .carousel-indicators li {height:18px !important; width:18px !important; border-radius: 15px; margin:6px; border:2px solid white; background:url(../../../../../sites/default/files/siteart/indicator_fill.png);}
 
 /* Site Introduction */
 
 div.site-intro {width:100%; max-width:1170px; margin:45px auto 0;}
-div.site-intro p {line-height:160%; letter-spacing:0.5px; margin-top:0px;}
+div.site-intro p {}
+
+/* Three Columns on Front Page */
+
+.front div.center-wrapper {max-width:1170px; margin:0px auto;}
+.front .panel-3col-33-stacked .panel-col .inside,
+.front .panel-3col-33-stacked .panel-col-first .inside, 
+.front .panel-3col-33-stacked .panel-col-last .inside  {padding:0px; margin:0px;}
+.front div.center-wrapper div.panel-col-first,
+.front div.center-wrapper div.panel-col,
+.front div.center-wrapper div.panel-col-last {width:32%;margin:0% 2% 0% 0%;}
+.front div.center-wrapper div.panel-col-last {margin-right:0%;}
+
+.front div.center-wrapper div.panel-col-first h2,
+.front div.center-wrapper div.panel-col h2,
+.front div.center-wrapper div.panel-col-last h2 {margin-top:0px; line-height:100%; font-weight:300; font-size:2em;}
+
+/* Weekly Market Makers and Quarterly Investment Updates */
+
+div#wmm-qiu {background:#f4f4f4; margin:24px 0px; text-align:center; }
+
+/* Our People - Front Page */
+
+div#ourpeople  { margin:0px auto; width:100%; text-align:center;}
+div#ourpeople table {margin:0px auto; width:1080px;}
+div#ourpeople table td {vertical-align:top;}
+div#ourpeople td.col-1, div#ourpeople td.col-2  {width:31%; margin-right:3.5%;}
+div#ourpeople td.col-3 { margin-right:0%; width:31%;}
+div#ourpeople h2.pane-title {font-size:1.35em;padding-bottom:12px;}
+
+div#ourpeople div.views-field-field-portrait {padding:24px; background:#ede8d9; width:60%; margin:0px auto 20px;}
+div#ourpeople div.views-field-field-portrait img { width:100%; max-width:230px; height:auto;}
+
+div#ourpeople div.views-field-title a {font-size:1.4em; padding-bottom:6px;}
+div#ourpeople div.views-field-field-position-title div.field-content {font-size:1.2em;}
+div#ourpeople div.views-field-field-year-hired div.field-content {padding-top:12px; font-family: 'Roboto Slab'; font-size:1.1em;}
+
+
+/* West Bearing Band on Front Page */
+div#wbi {background:#eee; width:100%; margin:24px auto;}
+div#wbi td.wbi-skyline {background:  url(../../../../../sites/default/files/siteart/west_bearing_skyline.jpg) center bottom no-repeat; width:50%; padding:0px;  }
+div#wbi td.wbi-description {width:100%; padding:24px 12px 24px 30px;}
+div#wbi div.pane-content { max-width:1170px; margin:0px auto;}
+
+
 
 /* Pages */
 
 h1.page-header {color:#a96640;}
 
 /* Team Member Pages */
+
+
