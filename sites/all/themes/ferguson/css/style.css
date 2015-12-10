@@ -108,14 +108,14 @@ div#wmm-qiu {background:#f4f4f4; margin:24px 0px; text-align:center; }
 
 /* Our People - Front Page */
 
-div#ourpeople  { margin:0px auto; width:100%; text-align:center;}
+div#ourpeople  { margin:0px auto; width:100%; text-align:center; background:#ede8d9; padding:18px 0px;}
 div#ourpeople table {margin:0px auto; width:1080px;}
 div#ourpeople table td {vertical-align:top;}
 div#ourpeople td.col-1, div#ourpeople td.col-2  {width:31%; margin-right:3.5%;}
 div#ourpeople td.col-3 { margin-right:0%; width:31%;}
 div#ourpeople h2.pane-title {font-size:1.35em;padding-bottom:12px;}
 
-div#ourpeople div.views-field-field-portrait {padding:24px; background:#ede8d9; width:60%; margin:0px auto 20px;}
+div#ourpeople div.views-field-field-portrait {padding:12px; background:#ede8d9; width:60%; margin:12px auto 0px auto;}
 div#ourpeople div.views-field-field-portrait img { width:100%; max-width:230px; height:auto;}
 
 div#ourpeople div.views-field-title a {font-size:1.4em; padding-bottom:6px;}
