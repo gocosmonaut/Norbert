@@ -30,7 +30,7 @@ footer.footer.container  {width:100%; max-width:none;}
 div.row section.col-sm-12 {padding:0px !important;}
 .row {margin:0px !important;}
 
-.not-front .col-sm-12 { margin: 0 auto;width: 100%; max-width: 1170px;}
+.not-front .col-sm-12 { margin:0 auto;width: 100%; max-width: 1170px; float:none;}
 .navbar #block-search-form {max-width:200px;}
 
 /* Header */
@@ -137,10 +137,17 @@ h1.page-header {color:#a96640;}
 
 /* Team Member Pages */
 
-/* To Coin a Phrase - TCAF is landing, coinphrase is individual post - Can they be the same? */
+/* To Coin a Phrase - TCAF */
 
 div#TCAF div.panel-col-first {width:70%; padding-right:2%; border-right:1px solid #ccc;}
 div#TCAF div.panel-col-last {width:30%; padding-left:2%;}
 div#TCAF div.panel-col-first div.inside, div#TCAF div.panel-col-last div.inside {margin:0px;}
 
+div#TCAF div.views-row {min-height:150px; border-bottom:1px solid #ccc;}
 div#TCAF div.views-row-1 h2 {margin-top:0px;}
+
+div#TCAF div.views-field-created-3  {width:15%; border:1px solid #ccc; text-align:center; padding:6px; margin:0px 3% 3% 0%;}
+div#TCAF div.blog-date-block p {line-height:110%;}
+div#TCAF div.blog-date-block p.b-month, div#TCAF div.blog-date-block p.b-date {font-family:"Roboto Slab";}
+div#TCAF div.views-field-field-portrait { width:15%; margin:0% 0% 6% 0%; }
+div#TCAF div.views-field-field-portrait img {height:auto;  }
