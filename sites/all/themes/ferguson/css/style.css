@@ -24,13 +24,13 @@ a {color:#5f483a;}
 a:hover {cursor:pointer; text-decoration:none;}
 p {font-size:1.2em; line-height:160%; letter-spacing:0.5px; margin-top:0px;}
 div.main-container.container  { padding:0px; max-width:none; width:100%;}
-.not-front div.main-container.container {max-width:1170px; margin:0px auto;}
+.not-front div.main-container.container {max-width:none; margin:0px auto; }
 .navbar-default {border:0px; background:none;}
 footer.footer.container  {width:100%; max-width:none;}
 div.row section.col-sm-12 {padding:0px !important;}
 .row {margin:0px !important;}
 
-.col-sm-12 { margin: 0 auto;width: 100%;}
+.not-front .col-sm-12 { margin: 0 auto;width: 100%; max-width: 1170px;}
 .navbar #block-search-form {max-width:200px;}
 
 /* Header */
@@ -137,4 +137,10 @@ h1.page-header {color:#a96640;}
 
 /* Team Member Pages */
 
+/* To Coin a Phrase - TCAF is landing, coinphrase is individual post - Can they be the same? */
 
+div#TCAF div.panel-col-first {width:70%; padding-right:2%; border-right:1px solid #ccc;}
+div#TCAF div.panel-col-last {width:30%; padding-left:2%;}
+div#TCAF div.panel-col-first div.inside, div#TCAF div.panel-col-last div.inside {margin:0px;}
+
+div#TCAF div.views-row-1 h2 {margin-top:0px;}
